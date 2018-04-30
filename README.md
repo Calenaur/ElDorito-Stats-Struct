@@ -15,12 +15,13 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"os"
 
 	"github.com/Calenaur/Eldorito-Stats-Struct/data"
 )
 
 func main(){
-	raw, err := ioutil.ReadFile("PATH-TO-EXAMPLE-JSON")
+	raw, err := ioutil.ReadFile(os.Getenv("GOPATH") + "/src/github.com/Calenaur/Eldorito-Stats-Struct/example/grifball_game.json")
 
 	if (err != nil) {
 		panic(err.Error())
