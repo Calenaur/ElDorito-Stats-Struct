@@ -1,6 +1,6 @@
 # ElDorito-Stats-Struct
 ---
-This library aims to provide an up to date version of the data structure [ElDorito](https://github.com/ElDewrito/ElDorito) publishes at the end of a match.
+This library aims to provide an up-to-date version of the data structure [ElDorito](https://github.com/ElDewrito/ElDorito) publishes at the end of a match.
 
 
 ## Installation
